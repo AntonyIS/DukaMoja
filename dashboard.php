@@ -4,7 +4,7 @@ require 'header.php';
 $title=$price=$description=$uploadFile=$supplier_id= '';
 $title_err=$price_err=$description_err=$uploadFile_err = '';
 
-//grab supplier id
+//grab supplier idgbbt
 if(isset($_SESSION['kipande'])){
     $supplier_id =$_SESSION['kipande'];
 }
